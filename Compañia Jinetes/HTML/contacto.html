@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Compañia teatral Jinetes">
+	<title>Jinetes</title>
+
+
+	<link rel="preload" type="text/css" href="../css/normalize.css" as="style">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+
+	<link rel="preload" type="text/css" href="../css/style.css" as="style">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="icon" href="../img/Icono.ico">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="contenedor">
+			<div class="barra">
+			
+				<a class="logo" href="index.html">
+					<h1 class="logo__nombre no-margin centrar-texto">Jinetes</h1>
+				</a>
+
+				<nav class="navegacion">
+					<a class="navegacion__enlace" href="inicio.html">Inicio</a>
+					<a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+					<a class="navegacion__enlace" href="eventos.html">Eventos</a>
+					<a class="navegacion__enlace" href="contacto.html">Contactanos</a>
+				</nav>
+			</div>
+		</div>	
+
+		<div class="header__texto">
+			<h2 class="no-margin">Compañía Teatral CDA</h2>
+			<p class="no-margin">En una pequeña o gran ciudad o pueblo, un gran teatro es el signo visible de cultura.</p>
+		</div>
+	</header>
+
+	<main class="contenedor">
+
+
+		<h3 class="centrar-texto datos-titulo">Nuestros Datos</h3>
+		<div class="formulario2">
+			<p class="formulario2-info">Número de Celular: <span>442 226 1890</span></p>
+			<p class="formulario2-info">E-mail: <span>fasfawfa@outlook.com</span></p>
+			<a href="https://www.instagram.com" target="_blank" rel="noopener norefferer">
+				<img class="formulario2-img" src="../img/insta-logo.png">
+			</a>
+		</div>
+
+		<h3 class="centrar-texto">Contáctanos</h3>
+
+		<div class="contacto-bg"></div>
+
+		<form class="formulario" action="enviar.php" method="post">
+			<div class="campo">
+				<label class="campo__label" for="nombre">Nombre</label>
+				<input class="campo__field" name="name" type="text" placeholder="Tu Nombre" id="name" required>
+			</div>
+
+			<div class="campo">
+				<label class="campo__label" for="email">E-mail</label>
+				<input class="campo__field" name="mail" type="email" placeholder="Tu E-mail" id="mail" required>
+			</div>
+
+			<div class="campo">
+				<label class="campo__label" for="tel">Teléfono</label>
+				<input class="campo__field" name="phone" type="tel" placeholder="Tu Número Celular" id="phone" pattern=".{8,}" title="8 o más caracteres" required>
+			</div>
+
+			<div class="campo">
+				<label class="campo__label" for="mensaje">Mensaje</label>
+				<textarea class="campo__field campo__field--textarea" name="message" id="message" required></textarea>
+			</div>		
+
+			<div class="campo">
+				<input type="submit" value="Enviar" class="boton boton--primario">
+			</div>				
+		</form>
+
+			
+
+	</main>
+
+	
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="barra">
+			
+				<a class="logo" href="index.html">
+					<h1 class="logo__nombre no-margin centrar-texto">Jinetes</h1>
+				</a>
+
+				<nav class="navegacion">
+					<a class="navegacion__enlace" href="inicio.html">Inicio</a>
+					<a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+					<a class="navegacion__enlace" href="eventos.html">Eventos</a>
+					<a class="navegacion__enlace" href="contacto.html">Contactanos</a>
+				</nav>
+			</div>
+		</div>	
+	</footer>
+
+</body>
+</html>
